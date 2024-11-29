@@ -31,7 +31,9 @@ app.post("/api/reverse", (req, res) => {
   const reversedString = input.split("").reverse().join("");
   res.json({ output: reversedString });
 });
-
+app.get("/", (req, res) => {
+  res.send("String reverser server running");
+});
 // Start server (for local testing)
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
