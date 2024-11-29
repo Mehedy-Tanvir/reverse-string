@@ -94,5 +94,5 @@ If the input is not a string, you'll receive a 400 Bad Request error:
 To run the server in development mode with auto-reloading:
 
 ```
-
+npm run dev
 ```
