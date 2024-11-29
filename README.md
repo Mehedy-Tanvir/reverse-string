@@ -16,7 +16,7 @@ To install the String Reverser API, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/yourusername/string-reverser.git
+   git clone https://github.com/Mehedy-Tanvir/string-reverser.git
    cd string-reverser
    ```
 
