@@ -6,6 +6,7 @@ app.use(express.json());
 // GET endpoint for documentation
 app.get("/api/reverse", (req, res) => {
   res.json({
+    name: "String Reverser",
     description: "Reverses a given string.",
     input: {
       type: "string",
